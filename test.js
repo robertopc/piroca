@@ -1,10 +1,10 @@
 'use strict';
 
 var test = require('ava');
-var pirocaNames = require('./');
+var piroca = require('./');
 
 test(function (t) {
-  t.assert(pirocaNames.all.length > 1);
-  t.assert(pirocaNames.randomize());
+  t.assert(piroca.names.length > 1);
+  t.assert(piroca.randomize());
   t.end();
 });
