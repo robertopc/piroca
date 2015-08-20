@@ -1,17 +1,16 @@
 {
-  "name": "piroca-names",
-  "version": "1.0.2",
+  "name": "piroca",
+  "version": "0.0.1",
   "description": "PaaS - Piroca as a Service (get Brazilian equivalents for d*ck)",
   "license": "MIT",
-  "repository": "joaocunha/piroca",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaocunha/piroca"
+  },
   "bin": {
     "piroca": "cli.js"
   },
-  "author": {
-    "name": "João Cunha",
-    "email": "joao@joaocunha.net",
-    "url": "http://twitter.com/joaocunha"
-  },
+  "author": "João Cunha <joao@joaocunha.net> (http://twitter.com/joaocunha)",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -44,5 +43,10 @@
   },
   "devDependencies": {
     "ava": "0.0.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/joaocunha/piroca/issues"
+  },
+  "homepage": "https://github.com/joaocunha/piroca",
+  "main": "index.js"
 }
