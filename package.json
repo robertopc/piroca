@@ -1,0 +1,48 @@
+{
+  "name": "piroca-names",
+  "version": "1.0.2",
+  "description": "PaaS - Piroca as a Service (get Brazilian equivalents for d*ck)",
+  "license": "MIT",
+  "repository": "joaocunha/piroca",
+  "bin": {
+    "piroca": "cli.js"
+  },
+  "author": {
+    "name": "João Cunha",
+    "email": "joao@joaocunha.net",
+    "url": "http://twitter.com/joaocunha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "names.json"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "word",
+    "words",
+    "list",
+    "array",
+    "json",
+    "random",
+    "rand",
+    "prompt",
+    "dick",
+    "piroca"
+  ],
+  "dependencies": {
+    "meow": "^3.3.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
