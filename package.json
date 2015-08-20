@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "joaocunha/piroca",
   "bin": {
-    "yes-no": "cli.js"
+    "piroca": "cli.js"
   },
   "author": {
     "name": "João Cunha",

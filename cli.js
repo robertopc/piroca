@@ -6,6 +6,7 @@ var piroca = require('./');
 
 var cli = meow({
   help: [
+    '',
     'Examples',
     '  $ piroca',
     '  Pingola',
@@ -16,7 +17,15 @@ var cli = meow({
     '  ...',
     '',
     'Options',
-    '  --all   Get all piroca names instead of a random word'
+    '  --all   Get all piroca names instead of a random piroca name.',
+    '',
+    "          _,-%/%|",
+    "      _,-'    \\//%\\",
+    "  _,-'        \\%/|%",
+    "/ / )    __,--  /%\\",
+    "\\__/_,-'%(%  ;  %)%",
+    "        %\\%,   %\\",
+    "          '--%'"
   ]
 });
 
