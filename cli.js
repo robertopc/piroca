@@ -2,7 +2,7 @@
 'use strict';
 
 var meow = require('meow');
-var pirocaNames = require('./');
+var piroca = require('./');
 
 var cli = meow({
   help: [
@@ -16,8 +16,8 @@ var cli = meow({
     '  ...',
     '',
     'Options',
-    '  --all   Get all words instead of a random word'
+    '  --all   Get all piroca names instead of a random word'
   ]
 });
 
-console.log(cli.flags.all ? pirocaNames.join('\n') : pirocaNames.randomize());
+console.log(cli.flags.all ? piroca.names.join('\n') : piroca.randomize());

@@ -1,16 +1,16 @@
 {
-  "name": "yes-no-words",
+  "name": "piroca-names",
   "version": "1.0.2",
-  "description": "Get yes/no like words",
+  "description": "PaaS - Piroca as a Service (get Brazilian equivalents for d*ck)",
   "license": "MIT",
-  "repository": "sindresorhus/yes-no-words",
+  "repository": "joaocunha/piroca",
   "bin": {
     "yes-no": "cli.js"
   },
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "João Cunha",
+    "email": "joao@joaocunha.net",
+    "url": "http://twitter.com/joaocunha"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -21,8 +21,7 @@
   "files": [
     "index.js",
     "cli.js",
-    "yes.json",
-    "no.json"
+    "names.json"
   ],
   "keywords": [
     "cli-app",
@@ -35,12 +34,9 @@
     "json",
     "random",
     "rand",
-    "yes",
-    "no",
     "prompt",
-    "confirm",
-    "deny",
-    "answer"
+    "dick",
+    "piroca"
   ],
   "dependencies": {
     "meow": "^3.3.0",
